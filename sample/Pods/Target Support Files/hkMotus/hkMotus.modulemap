@@ -1,0 +1,6 @@
+framework module hkMotus {
+  umbrella header "hkMotus-umbrella.h"
+
+  export *
+  module * { export * }
+}
