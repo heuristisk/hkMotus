@@ -25,7 +25,5 @@ class ViewController: UITableViewController {
         cell.textLabel?.text = String("Row number \(indexPath.row)")
         return cell
     }
-    
-    
 }
 
