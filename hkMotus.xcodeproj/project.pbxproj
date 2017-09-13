@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		8BE447BD1F68BF580014A55B /* hkMotus.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BE447BB1F68BF580014A55B /* hkMotus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8BE447C41F68C09A0014A55B /* UITableViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE447C31F68C09A0014A55B /* UITableViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8BE447B81F68BF580014A55B /* hkMotus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = hkMotus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BE447BB1F68BF580014A55B /* hkMotus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = hkMotus.h; sourceTree = "<group>"; };
 		8BE447BC1F68BF580014A55B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BE447C31F68C09A0014A55B /* UITableViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +50,7 @@
 			children = (
 				8BE447BB1F68BF580014A55B /* hkMotus.h */,
 				8BE447BC1F68BF580014A55B /* Info.plist */,
+				8BE447C31F68C09A0014A55B /* UITableViewExtension.swift */,
 			);
 			path = hkMotus;
 			sourceTree = "<group>";
@@ -96,6 +99,7 @@
 					8BE447B71F68BF580014A55B = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = 3ET68Q56D7;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -132,6 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BE447C41F68C09A0014A55B /* UITableViewExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +247,7 @@
 		8BE447C11F68BF580014A55B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 3ET68Q56D7;
@@ -254,6 +260,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.heuristisk.hkMotus;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -261,6 +268,7 @@
 		8BE447C21F68BF580014A55B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 3ET68Q56D7;
