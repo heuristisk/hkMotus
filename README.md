@@ -5,7 +5,10 @@
 
 ![Image 01](https://github.com/heuristisk/hkMotus/blob/master/demo.gif?raw=true)
 
+### Another:
+
 ![Image 02](https://github.com/heuristisk/hkMotus/blob/master/demo1.gif?raw=true)
+
 
 ## How to setup it
 
