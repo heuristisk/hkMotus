@@ -1,11 +1,11 @@
 PODS:
-  - hkMotus (1.0.0)
+  - hkMotus (1.0.1)
 
 DEPENDENCIES:
   - hkMotus
 
 SPEC CHECKSUMS:
-  hkMotus: 63137f6febc999da14cf4201948e91659e5fcae1
+  hkMotus: 5102fdf8af962ff5d0a752f99d1a3a15dbe89d02
 
 PODFILE CHECKSUM: 50ec2268130abcfec856d667395c6f2ca8e72af3
 

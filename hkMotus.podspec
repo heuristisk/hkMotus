@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'hkMotus'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = 'Create a reload data effect on UITableView'
  
   s.description      = <<-DESC
